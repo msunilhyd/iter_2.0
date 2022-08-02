@@ -5,7 +5,7 @@ import Sidebar from "./components/sidebar/Sidebar"
 import { Container } from "react-bootstrap"
 import HomeScreen from './screens/homeScreen/HomeScreen'
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 
 import "./_app.scss"
 
@@ -34,7 +34,7 @@ const App = () => {
 
     return (
         <Router>
-            <Route path="/">
+            <Route path="/" exact>
                 <Layout>
                     <HomeScreen />
                 </Layout>
@@ -46,6 +46,10 @@ const App = () => {
                 <Layout>
                     <h1>Search Results</h1>
                 </Layout>
+            </Route>
+
+            <Route>
+                <Redirect to='/' />
             </Route>
         </Router>
     )
