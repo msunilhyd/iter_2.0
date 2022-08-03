@@ -34,6 +34,8 @@ const App = () => {
 
     return (
         <Router>
+            <Switch>
+
             <Route path="/" exact>
                 <Layout>
                     <HomeScreen />
@@ -47,10 +49,10 @@ const App = () => {
                     <h1>Search Results</h1>
                 </Layout>
             </Route>
-
             <Route>
                 <Redirect to='/' />
             </Route>
+            </Switch>
         </Router>
     )
 }
