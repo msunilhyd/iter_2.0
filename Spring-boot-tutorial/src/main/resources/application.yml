@@ -1,0 +1,59 @@
+server:
+  port: '8082'
+
+spring:
+  profiles:
+    active: qa
+
+---
+
+spring:
+  profiles: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: linus
+    url: jdbc:mysql://192.168.93.128:3306/dcbapp
+    password: linus
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+welcome:
+  message: Welcome to Daily Code Buffer !!
+
+---
+spring:
+  profiles: qa
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: linus
+    url: jdbc:mysql://192.168.93.128:3306/dcbapp-qa
+    password: linus
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+welcome:
+  message: Welcome to Daily Code Buffer !!
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+---
+
+spring:
+  profiles: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: linus
+    url: jdbc:mysql://192.168.93.128:3306/dcbapp-prod
+    password: linus
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+welcome:
+  message: Welcome to Daily Code Buffer !!
