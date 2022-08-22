@@ -1,11 +1,20 @@
 package demo;
 
-public class Doctor implements Staff {
+import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
-    private String qualification;
+import javax.annotation.PostConstruct;
 
-    public Doctor(String qualification) {
-        this.qualification = qualification;
+@Component
+@Scope(scopeName = "prototype")
+public class Doctor implements Staff, BeanNameAware {
+
+    @Override
+    public String toString() {
+        return "Doctor{" +
+                "qualification='" + qualification + '\'' +
+                '}';
     }
 
     public String getQualification() {
@@ -16,7 +25,19 @@ public class Doctor implements Staff {
         this.qualification = qualification;
     }
 
+    public String qualification;
+
     public void assist() {
         System.out.println("Doctor is assisting");
+    }
+
+    @Override
+    public void setBeanName(String s) {
+        System.out.println("Set Bean Name method is called");
+    }
+
+    @PostConstruct
+    public void postConstruct() {
+        System.out.println("Post Construct Method is called");
     }
 }
