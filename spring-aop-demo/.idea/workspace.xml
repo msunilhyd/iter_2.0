@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05ca59bd-71a2-4b38-bb22-bdc1695ebd91" name="Changes" comment="Added the AspectJ project">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/springaopdemo/SpringAopDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dailycodebuffer/springaopdemo/SpringAopDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/AuthenticationAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/AuthenticationAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/BeanConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/BeanConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/ShoppingCart.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +56,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/linus/Documents/git_projects/iter_2.0/spring-aop-demo",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>

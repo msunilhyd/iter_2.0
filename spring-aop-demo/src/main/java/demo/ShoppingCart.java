@@ -6,7 +6,10 @@ import org.springframework.stereotype.Component;
 public class ShoppingCart {
 
     public void checkout(String status) {
-        System.out.println("Checkout Method from ShoppingCart Called");
+        // Logging
+        // Authentication & Authorization
+        // Sanitization
+        System.out.println("Checkout Method from ShoppingCart called");
     }
 
     public int quantity() {
