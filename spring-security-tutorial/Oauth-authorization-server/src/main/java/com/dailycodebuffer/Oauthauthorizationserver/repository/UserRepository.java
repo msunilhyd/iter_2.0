@@ -1,6 +1,6 @@
 package com.dailycodebuffer.Oauthauthorizationserver.repository;
 
-import com.dailycodebuffer.client.entity.User;
+import com.dailycodebuffer.Oauthauthorizationserver.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
